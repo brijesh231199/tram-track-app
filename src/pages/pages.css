@@ -1,0 +1,20 @@
+.tram-list-container {
+    padding: 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tram-list-container.dark {
+    background-color: #000;
+}
+
+.tram-list-container.light {
+    background-color: #fff;
+}
+
+.header-center {
+    text-align: center;
+    margin-bottom: 0 !important;
+}
