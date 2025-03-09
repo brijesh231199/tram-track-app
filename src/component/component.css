@@ -1,31 +1,39 @@
 :root {
-    --light-icon-color: #171c43;
-    --dark-icon-color: #fff;
-    --light-hover-bg: rgba(23, 28, 67, 0.1);
-    --dark-hover-bg: rgba(255, 255, 255, 0.2);
-}
-
-.light-mode {
-    color: var(--light-icon-color);
-}
-
-.dark-mode {
-    color: var(--dark-icon-color);
+  --light-hover-bg: rgba(23, 28, 67, 0.1);
+  --dark-hover-bg: rgba(255, 255, 255, 0.2);
 }
 
 .theme-switcher-icon {
-    font-size: 22px;
-    transition: color 0.3s ease-in-out;
-    margin-left: auto;
-    padding: 8px;
-    border-radius: 8px;
+  font-size: 22px;
+  transition: color 0.3s ease-in-out;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 /* Hover Effect */
 .light-mode:hover {
-    background-color: var(--light-hover-bg);
+  background-color: var(--light-hover-bg);
 }
 
 .dark-mode:hover {
-    background-color: var(--dark-hover-bg);
+  background-color: var(--dark-hover-bg);
+}
+
+.dropdown-select {
+  width: 200px;
+}
+
+.destination-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.ant-select-dropdown .ant-select-item {
+  color: #171c43 !important;
 }

@@ -21,4 +21,14 @@ export const darkTheme: ThemeConfig = {
     colorBgSpotlight: "#ffffff",
     colorTextLightSolid: "#000000",
   },
+  components:{
+    Table: {
+      headerBg:"#303030",
+      rowHoverBg: "#303030"
+    },
+    Select: {
+      colorTextPlaceholder: "rgba(255, 255, 255, 0.25)",
+      optionSelectedColor: "#000000",
+    }
+  },
 };
