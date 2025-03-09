@@ -98,7 +98,7 @@ const TramList: React.FC = () => {
             label="Select Destination:"
             options={[
               { label: "Linde", value: "1" },
-              { label: "Sickla Udde", value: "2" },
+              { label: "Sickla udde", value: "2" },
             ]}
             value={selectedDestination}
             onChange={setSelectedDestination}
